@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: nwos
+Version: 0.1
+Summary: A library for working with prime and composite numbers
+Home-page: https://github.com/yourusername/nwos
+Author: Nlolik1111
+Author-email: nikolay9047670014@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NWOS: Python Library for Prime and Composite Number Checking
+
+The `nwos` library is a powerful and easy-to-use Python package designed to work with **prime** and **composite** numbers. It provides efficient algorithms to check whether individual numbers are prime or composite and can also handle batch operations for lists of numbers.
+
+## Table of Contents
+- [Installation](#installation)
+- [Features](#features)
+- [Usage](#usage)
+  - [Checking a Single Number](#example-1-checking-a-single-number)
+  - [Checking Composite Numbers](#example-2-checking-if-a-number-is-composite)
+  - [Checking a List of Numbers](#example-3-checking-a-list-of-numbers)
+- [Handling Errors](#handling-errors)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+You can easily install `nwos` using pip from the Python Package Index (PyPI):
+
+```bash
+pip install nwos

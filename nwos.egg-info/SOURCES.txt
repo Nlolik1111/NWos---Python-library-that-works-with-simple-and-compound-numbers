@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nwos/__init__.py
+nwos/nwos.py
+nwos.egg-info/PKG-INFO
+nwos.egg-info/SOURCES.txt
+nwos.egg-info/dependency_links.txt
+nwos.egg-info/top_level.txt
