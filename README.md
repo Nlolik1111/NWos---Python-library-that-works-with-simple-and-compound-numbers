@@ -34,12 +34,12 @@ The **nwos** library includes the following key functionalities:
 ### Prime Number Check
 
 - **Prime number**: A natural number greater than 1 that is divisible only by 1 and itself.
-- Function `is_prime(num)` returns `True` if the number is prime and `False` otherwise.
+- Function `isPrime(num)` returns `True` if the number is prime and `False` otherwise.
 
 ### Composite Number Check
 
 - **Composite number**: A natural number greater than 1 that is not prime, meaning it has divisors other than 1 and itself.
-- Function `is_composite(num)` returns `True` if the number is composite and `False` otherwise.
+- Function `isComposite(num)` returns `True` if the number is composite and `False` otherwise.
 
 ### Batch Checking for Lists
 
@@ -58,7 +58,7 @@ import nwos
 
 # Check if a number is prime
 number = 29
-if nwos.is_prime(number):
+if nwos.isPrime(number):
     print(f"{number} is a prime number.")
 else:
     print(f"{number} is not a prime number.")
@@ -73,7 +73,7 @@ import nwos
 
 # Check if a number is composite
 number = 30
-if nwos.is_composite(number):
+if nwos.isComposite(number):
     print(f"{number} is a composite number.")
 else:
     print(f"{number} is not a composite number.")
@@ -107,7 +107,7 @@ The library raises appropriate exceptions when incorrect input types are passed.
 import nwos
 
 try:
-    nwos.is_prime("string instead of a number")
+    nwos.isPrime("string instead of a number")
 except ValueError as e:
     print(f"Error: {e}")
 ```
